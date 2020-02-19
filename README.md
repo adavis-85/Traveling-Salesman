@@ -1,7 +1,7 @@
 # Traveling Salesman
 
 The traveling salseman problem is a classic problem.  The problem states that a salesman must start at a certain 
-citites and visit a list of other cities.  All of the other cities must be visited.  The city started at is the salesman's
+city and visit a list of other cities.  All of the other cities must be visited.  The city started at is the salesman's
 starting point and needs to be returned to last.  The objective is to minimize the total distance traveled.  For this 
 example four nodes are chosen.
 ```
@@ -11,6 +11,7 @@ trying=[0 4 6 9;
         4 0 7 3;
         6 7 0 2;
         9 3 2 0]
+
  graph=Containers.DenseAxisArray(trying,node,node)
 ```
 The matrix is the distances between the nodes.  The distances also create a symmetric matrix.  The nodes cannot travel to 
