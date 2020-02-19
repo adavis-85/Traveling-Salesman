@@ -38,6 +38,7 @@ The salesman must leave each node that he travels to.  Each node must be visited
 solved.
 ```
 @objective(q,Min,sum(graph[i,j]*path[i,j] for i in node,j in node))
+
 optimize!(q)
 
 value.(path)
