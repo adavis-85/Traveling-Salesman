@@ -1,4 +1,4 @@
-# Traveling-Salesman
+# Traveling Salesman
 
 The traveling salseman problem is a classic problem.  The problem states that a salesman must start at a certain 
 citites and visit a list of other cities.  All of the other cities must be visited.  The city started at is the salesman's
