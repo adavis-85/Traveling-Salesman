@@ -1,4 +1,5 @@
-
+using JuMP
+using GLPK
 trying=[0 4 6 9;
         4 0 7 3;
         6 7 0 2;
