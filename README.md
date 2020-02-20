@@ -14,7 +14,7 @@ trying=[0 4 6 9;
 
  graph=Containers.DenseAxisArray(trying,node,node)
 ```
-The matrix is the distances between the nodes.  The distances also create a symmetric matrix.  The nodes cannot travel to 
+The matrix is the distances between each node .  The nodes cannot travel to 
 themselves so they are 0.  Next a model will be made using the GLPK solver because integer values are needed to be able 
 to show a one for each position that is selected.  The constraints will be chosen to produced results needed.
 ```
